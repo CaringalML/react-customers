@@ -3,7 +3,7 @@ import axios from 'axios';
 import CustomerTable from './CustomerTable'; // Ensure this import is correct
 
 // Default base URI
-const BASE_URI = 'https://server.lawrence-kps.online:8080/api';
+const BASE_URI = 'http://15.152.160.132:8080/api';
 
 const DataFetcher = ({ endpoint }) => { // Accepting endpoint as a prop
   const [data, setData] = useState(null);
